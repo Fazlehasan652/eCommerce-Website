@@ -143,14 +143,33 @@ text-align: center;
   .rooms-section {
   }
   .room-text {
+    width: 422px;
+  height: 151px;
+  background-color: #B88E2F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   .h2-room {
   }
   .para-room {
   }
   .room-btn {
+    background: #B88E2F;
+    width: 176;
+    height: 48;
+    top: 3162px;
+    left: 100px;
+    
   }
   .room-btn-link {
+    color: #FFFFFF;
+  font-family: Poppins;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
   }
   .room-img {
   }
@@ -160,14 +179,44 @@ text-align: center;
     width: 80%;
   }
   .inner-peace {
+    display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  position: relative;
+  top: -100px;
+  left: 50px;
   }
   .room-peace {
+    background: #FFFFFFB8;
+    backdrop-filter: blur(3px);
+    width: 217px;
+    height: 130px;
+    top: 3235px;
+    left: 588px;
+    
   }
   .para-peace {
+    color: #616161;
+    font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  
   }
   .h3-peace {
+    color: #3A3A3A;
+    font-family: Poppins;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  
   }
   .inner-arrow {
+    background: #B88E2F;
+    width: 48px;
+  height: 48px;
   }
   .room-only-img {
   }
@@ -189,16 +238,41 @@ text-align: center;
   /* Funiro Furniture Section  */
   
   .furniture {
+    width: 1799;
+  height: 780;
+  
+  
   }
   .furniture-body {
   }
   .furniture-text {
   }
   .para-furniture {
+    color: #616161;
+    font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  
   }
   .h2-furniture {
+    color: #3A3A3A;
+    font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  
   }
   .furniture-img {
+    width: 1799;
+  height: 721;
+  top: 3559px;
+  left: -196px;
+  
   }
   .furni-left-img {
   }
