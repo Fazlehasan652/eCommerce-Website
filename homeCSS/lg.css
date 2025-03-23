@@ -171,6 +171,9 @@ text-align: center;
   }
   .room-only-img {
   }
+  #room-only-img{
+    display: none;
+  }
   .only-img {
   }
   .only-img-1 {
