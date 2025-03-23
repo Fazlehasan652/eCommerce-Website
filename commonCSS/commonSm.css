@@ -7,7 +7,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 /* Common Style CSS { Header, Hero, achievement, Footer, Products }  */
 .container {
@@ -58,7 +58,7 @@ body {
 .nav-link {
 }
 .uase-login {
-  display: none;
+  display: block;
 }
 .user {
 }

@@ -1,7 +1,7 @@
 
 /* Media Screen For 375px to 940px  */
 @media screen and (min-width: 347px) {
-  container {
+  .container {
     text-align: center;
     background: #FFFFFF;
 

@@ -12,7 +12,7 @@
 }
 .discover-img {
   width: 100%;
-  visibility: hidden;
+  
 }
 .discover-text {
   position: relative;
@@ -365,8 +365,8 @@ text-align: center;
 
 }
 .furniture-img {
-display: grid;
-grid-template-columns: auto auto auto ;
+/* display: grid;
+grid-template-columns: auto auto auto ; */
 
 
 
