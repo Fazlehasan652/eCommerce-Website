@@ -1,0 +1,157 @@
+
+/* Media Screen For 1440px to Upper  */
+@media screen and (min-width: 1440px) {
+  container {
+    text-align: center;
+    background: #FFFFFF;
+
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* Header CSS Style  */
+  .header {
+    background: #ffffff;
+    display: flex;
+    min-width: auto;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 3px 13px -3px rgba(0,0,0,0.55);
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  .logo-img {
+  }
+  .h2-logo {
+  }
+  .navbar {
+  }
+  .three-line {
+  }
+  .line-img {
+  }
+  .nav {
+    display: none;
+  }
+  .nav-items {
+  }
+  .nav-list {
+  }
+  .nav-link {
+  }
+  .uase-login {
+    display: none;
+  }
+  .user {
+  }
+  
+  /* Hero CSS Style {shop, Cart, Checkout, contact, Blog }  */
+  
+  /* Shop  */
+  .hero-section-shop {
+  }
+  .hero-shop {
+  }
+  .hero-bg-img-shop {
+  }
+  .hero-discover-shop {
+  }
+  .h1-hero-shop {
+  }
+  .hero-text-shop {
+  }
+  .para-hero-shop {
+  }
+  .hero-shop-icon {
+  }
+  
+  /* Cart  */
+  .hero-cart-diff {
+  }
+  .cart-logo-diff {
+  }
+  
+  /* Achievement */
+  .achievement-section {
+  }
+  .achievement {
+  }
+  .achievement-icon {
+  }
+  .achievement-text {
+  }
+  .h3-achievement {
+  }
+  .para-achievement {
+  }
+  
+  /* Footer */
+  .footer-section {
+  }
+  .footer-top {
+  }
+  .footer-div-left {
+  }
+  .h3-footer {
+  }
+  .para-div {
+  }
+  .light-para {
+  }
+  .footer-div-middle {
+  }
+  .para-footer {
+  }
+  .footer-div-right {
+  }
+  .subscribe {
+  }
+  .footer-input {
+  }
+  .para-footer {
+  }
+  .footer-hr {
+  }
+  .footer-bottom {
+  }
+  .para-bottom {
+  }
+  
+  /* Products */
+  .products-shop {
+    
+  }
+  .product-body-shop {
+  }
+  .product-content {
+  }
+  .product-cart-link {
+  }
+  .product-img {
+  }
+  .protect-details {
+  }
+  .h3-pro {
+  }
+  .para-pro {
+  }
+  .pro-price {
+  }
+  .h2-pro {
+  }
+  .para-pro-rp {
+  }
+  .product-btn-shop {
+  }
+  .pro-btn-link-shop {
+  }
+  }

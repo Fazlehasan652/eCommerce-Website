@@ -1,0 +1,188 @@
+
+/* Media Screen For 940px to 1440px  */
+@media screen and (min-width: 940px) {
+    /* Hero Discover Section  */
+  .hero-discover {
+  }
+  .hero-discover-img {
+    position: relative;
+    z-index: 10;
+    background-image: url(../images/home-img/Discover-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .discover-img {
+    width: 100%;
+    visibility: hidden;
+  }
+  .discover-text {
+    position: relative;
+    top: -150px;
+    left: -0px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .collection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .para-new {
+      font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 3px;
+  color: #333333;
+  
+  }
+  .h2-collection {
+      font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 65px;
+  letter-spacing: 0px;
+  margin-left: 5px;
+  color: #B88E2F;
+  
+  }
+  .para-collection {
+    display: none;
+  }
+  .collection-btn {
+    width: 100px;
+    height: 40px;
+  border-style: none;
+  
+    background: #b88f2f;
+    box-shadow: 7px 10px 5px -8px rgba(0,0,0,0.75);
+  }
+  .collection-btn-link {
+      text-decoration: none;
+  color: #FFFFFF;
+  
+      font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  
+  
+  
+  }
+  
+  /* Browse Section  */
+  .browse {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: -100px;
+  }
+  .browse-text {
+  }
+  .h3-browse {
+  }
+  .para-browse {
+  }
+  .browse-imges {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.bro-img {
+  width:100%;
+  height: 350px;
+}
+  .h4-browse {
+  }
+
+  /* Home Products Section  */
+.products{}
+.h2-products{}
+.product-body{}
+.product-content{}
+.product-cart-link{}
+.product-img{}
+.product-details{}
+.h3-pro{}
+.para-pro{}
+.h2-pro{}
+.para-pro-rp{}
+.product-btn{}
+.pro-btn-link{}
+  
+  /* Rooms Section  */
+  .rooms-section {
+  }
+  .room-text {
+  }
+  .h2-room {
+  }
+  .para-room {
+  }
+  .room-btn {
+  }
+  .room-btn-link {
+  }
+  .room-img {
+  }
+  .room-peace-img {
+  }
+  .peace-img {
+    width: 80%;
+  }
+  .inner-peace {
+  }
+  .room-peace {
+  }
+  .para-peace {
+  }
+  .h3-peace {
+  }
+  .inner-arrow {
+  }
+  .room-only-img {
+  }
+  .only-img {
+  }
+  .only-img-1 {
+    width: 80%;
+  }
+  .only-elipes {
+  }
+  .elipes {
+  }
+  #elipes {
+  }
+  
+  /* Funiro Furniture Section  */
+  
+  .furniture {
+  }
+  .furniture-body {
+  }
+  .furniture-text {
+  }
+  .para-furniture {
+  }
+  .h2-furniture {
+  }
+  .furniture-img {
+  }
+  .furni-left-img {
+  }
+  .fur-img-1 {
+    width: 80%;
+  }
+  .furni-middle-img {
+  }
+  .furni-right-img {
+  }
+  }
