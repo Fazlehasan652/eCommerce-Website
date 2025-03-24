@@ -6,7 +6,7 @@
 .hero-discover-img {
   position: relative;
   z-index: 10;
-  /* background-image: url(../images/home-img/Discover-cover.png); */
+  background-image: url(../images/home-img/Discover-cover.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

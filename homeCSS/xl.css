@@ -2,14 +2,17 @@
 @media screen and (min-width: 940px) {
   /* Hero Discover Section  */
   .hero-discover {
-    width: 90rem;
+    width: 100;
   }
   .hero-discover-img {
     position: relative;
     z-index: 10;
+    /* background-image: url(../images/home-img/Discover-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
   }
   .discover-img {
-    width: 100%;
+    width: 100;
     height: 100%;
     position: relative;
   }
@@ -167,6 +170,7 @@
   /* Rooms Section  */
   .rooms-section {
     width: 100%;
+    background-color: #b88e2f;
   }
   .room-text {
     width: 26.375rem;
