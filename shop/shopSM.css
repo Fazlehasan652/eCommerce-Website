@@ -1,0 +1,98 @@
+/* Shop Section CSS STyle  */
+
+/* Filter Section  */
+.filter-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F9F1E7;
+
+    width: 100%;
+height: 6.25rem;
+
+
+}
+.filter-left{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.filter-icon{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.filter-img-icon{}
+.h5-filter{
+    color: #000000;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.line{
+    border: .125rem solid #9F9F9F;
+  
+border-width: .125rem;
+
+}
+.Para-filter{
+    color: #000000;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.filter-right{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.filter-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.filter-short-by{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.filter-input-number{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #9F9F9F;
+background: #FFFFFF;
+width: 3.4375rem;
+height: 3.4375rem;
+text-align: center;
+border-style: none;
+
+
+}
+.filter-input-default{
+    background: #FFFFFF;
+    width: 11.75rem;
+height: 3.4375rem;
+border-style: none;
+text-align: center;
+color: #9F9F9F;
+font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+
+}
