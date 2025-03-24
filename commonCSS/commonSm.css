@@ -8,15 +8,17 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: blueviolet;
-  
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 /* Common Style CSS { Header, Hero, achievement, Footer, Products }  */
 .container {
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
 
   background-color: tomato;
-  
+
   margin: 0 auto;
 }
 
@@ -31,7 +33,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0px 3px 13px -3px rgba(0,0,0,0.55);
+  box-shadow: 0px 3px 13px -3px rgba(0, 0, 0, 0.55);
 }
 .logo {
   display: flex;
@@ -44,10 +46,10 @@ body {
 .h2-logo {
   color: #000000;
   font-family: Montserrat;
-font-weight: 700;
-font-size: 34px;
-line-height: 100%;
-letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
 }
 .navbar {
 }
@@ -126,22 +128,20 @@ letter-spacing: 0px;
 .h3-footer {
   color: #000000;
   font-family: Poppins;
-font-weight: 700;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .para-div {
 }
 .light-para {
-  color: #9F9F9F;
+  color: #9f9f9f;
   font-family: Poppins;
-font-weight: 400;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .footer-div-middle {
 }
@@ -159,26 +159,23 @@ letter-spacing: 0%;
 .para-footer {
   color: #000000;
   font-family: Poppins;
-font-weight: 500;
-font-size: 15px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
-.sub-footer-link{
+.sub-footer-link {
   display: block;
   color: #000000;
   font-family: Poppins;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .footer-hr {
   width: 90%;
   margin: 5px auto;
-
 }
 .footer-bottom {
   margin-top: 5px;
