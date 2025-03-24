@@ -3,9 +3,6 @@
   .container {
     text-align: center;
     background: #ffffff;
-
-    background-color: rgb(114, 255, 71);
-
     margin: 0 auto;
   }
 
@@ -32,13 +29,13 @@
   }
   .h2-logo {
     color: #000000;
-  font-family: Montserrat;
-font-weight: 700;
-font-size: 34px;
-line-height: 100%;
-letter-spacing: 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0px;
   }
-  .nav-user{
+  .nav-user {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -64,7 +61,6 @@ letter-spacing: 0px;
     align-items: center;
     justify-content: space-around;
     width: 50%;
-
   }
   .user {
   }

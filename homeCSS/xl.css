@@ -7,9 +7,6 @@
   .hero-discover-img {
     position: relative;
     z-index: 10;
-    /* background-image: url(../images/home-img/Discover-cover.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
   }
   .discover-img {
     min-width: 100%;
@@ -114,9 +111,7 @@
   }
   .bro-img {
     width: 22.8125rem;
-height: 30rem;
-
-
+    height: 30rem;
   }
   .h4-browse {
     color: #333333;
@@ -130,7 +125,7 @@ height: 30rem;
 
   /* Home Products Section  */
   .products {
-  width: 100%;
+    width: 100%;
     margin: 0 auto;
   }
   .h2-products {
@@ -141,7 +136,6 @@ height: 30rem;
     gap: 5rem;
     margin-top: 3.125rem;
     width: 100%;
-    
   }
   .product-content {
   }
@@ -156,7 +150,7 @@ height: 30rem;
   .product-details {
     padding-top: 0.625rem;
     width: 17rem;
-    height: 9.0625rem; ;
+    height: 9.0625rem;
   }
   .h3-pro {
   }
@@ -170,7 +164,7 @@ height: 30rem;
     background: #ffffff;
     width: 15.3125rem;
     height: 3rem;
-    border-width: .0625rem;
+    border-width: 0.0625rem;
   }
   .pro-btn-link {
     color: #b88e2f;
@@ -185,7 +179,6 @@ height: 30rem;
   .rooms-section {
     width: 100%;
     height: 41.875rem;
-    background-color: #2cef12;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -248,8 +241,7 @@ height: 30rem;
   }
   .peace-img {
     width: 22.25rem;
-height: 36.375rem;
-
+    height: 36.375rem;
   }
   .inner-peace {
     display: flex;
@@ -318,7 +310,7 @@ height: 36.375rem;
     width: 0.875rem;
     height: 0.875rem;
     border-radius: 50%;
-    padding: .1875rem;
+    padding: 0.1875rem;
     text-align: center;
     text-decoration: none;
     color: transparent;
@@ -329,11 +321,14 @@ height: 36.375rem;
     height: 1rem;
     border-width: 0.0625rem;
     border-radius: 50%;
-    padding: .1875rem;
+    padding: 0.1875rem;
     text-align: center;
     text-decoration: none;
     color: transparent;
     border: 0.25rem solid white;
+    outline-style: solid;
+    outline-color: #b88e2f;
+    outline-width: thin;
   }
 
   /* Funiro Furniture Section  */
@@ -347,7 +342,6 @@ height: 36.375rem;
     width: 100%;
     height: 48.75rem;
     margin: 0 auto;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,7 +379,7 @@ height: 36.375rem;
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 6.25rem;
-    column-gap: 8.125rem;
+    column-gap: 5.125rem;
   }
   .furni-left-img {
     display: grid;
@@ -425,7 +419,8 @@ height: 50%; */
     display: grid;
     grid-template-columns: 6.25rem 6.25rem;
     row-gap: 1.25rem;
-    column-gap: 12.5rem;
+    column-gap: 7.5rem;
+    margin-left: -0.625rem;
   }
 
   .fur-img-3 {
