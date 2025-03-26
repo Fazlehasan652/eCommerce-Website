@@ -1,0 +1,77 @@
+/* Get In Touch section  */
+.touch-section {
+    padding-top: 3.125rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.25rem;  
+}
+.touch-top {
+}
+.h2-get {
+}
+.para-get {
+}
+.touch-bottom {
+  display: flex;
+  width: 100%;
+  
+  align-items: center;
+  flex: 2;
+}
+.touch-left {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.addres-img-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+  gap: 3.2rem;
+}
+.addres-img {
+  color: #000000;
+  width: 1.375rem;
+  height: 1.7245rem;
+}
+.address-side {
+  display: flex;
+  flex-direction: column;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h4-address {
+  text-align: start;
+}
+.p-address {
+  text-align: start;
+}
+.touch-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.touch-form {
+}
+.contact-form {
+}
+.contact-label {
+}
+.contact-input {
+}
+.touch-btn {
+}
+.touch-link {
+}
