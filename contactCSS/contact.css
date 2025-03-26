@@ -1,24 +1,44 @@
 /* Get In Touch section  */
 .touch-section {
-    padding-top: 3.125rem;
+  padding-top: 5.125rem;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6.25rem;  
+  gap: 6.25rem;
 }
 .touch-top {
+  display: flex;
+  flex-direction: column;width: 50%;
+  align-items: center;
+  gap: .9375rem;
 }
 .h2-get {
+  color: #000000;
+  font-family: Poppins;
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 100%;
+
 }
 .para-get {
+  color: #9F9F9F;
+  font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 60%;
 }
 .touch-bottom {
   display: flex;
   width: 100%;
-  
-  align-items: center;
+  padding-top: 3.125rem;
+  align-items: flex-start;
   flex: 2;
 }
 .touch-left {
@@ -27,6 +47,8 @@
   align-items: flex-start;
   justify-content: center;
   gap: 1.25rem;
+  flex: 1;
+  
 }
 
 .addres-img-side {
@@ -34,7 +56,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
-  gap: 3.2rem;
+  gap: 7.8rem;
 }
 .addres-img {
   color: #000000;
@@ -44,34 +66,101 @@
 .address-side {
   display: flex;
   flex-direction: column;
+  gap: 4.2rem;
 }
 .address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: .3125rem;
 }
 .h4-address {
   text-align: start;
+  color: #000000;
+  font-family: Poppins;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
 }
 .p-address {
   text-align: start;
+  color: #000000;
+  font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+
 }
 .touch-right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
   flex: 1;
+  width: 39.6875rem;
+  height: 57.6875rem;
+  gap: 3.125rem;
 }
 .touch-form {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.25rem;
 }
 .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
 }
 .contact-label {
+  color: #000000;
+  font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
 }
 .contact-input {
+  border: 1px solid #9F9F9F;
+  color: #FFFFFF;
+  width: 33.0469rem;
+height: 4.6875rem;
+border-radius: .625rem;
+border-width: .0625rem;
+text-align: start;
+padding-left: .625rem;
+}
+#massage{
+  color: #FFFFFF;
+  border: 1px solid #9F9F9F;
+  width: 32.9375rem;
+height: 7.5rem;
+border-radius: 10px;
+border-width: 1px;
+
+
 }
 .touch-btn {
+  width: 14.8125rem;
+height: 3.4375rem;
+background-color: #B88E2F ;
+border-radius: 5px;
+border-width: 1px;
+border: 1px solid #B88E2F;
+  
 }
 .touch-link {
+  color: #FFFFFF;
+  font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: none;
+
 }

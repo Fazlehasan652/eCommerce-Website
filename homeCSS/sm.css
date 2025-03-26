@@ -2,6 +2,7 @@
 
 /* Hero Discover Section  */
 .hero-discover {
+  width: 100%;
 }
 .hero-discover-img {
   position: relative;
@@ -14,9 +15,9 @@
   width: 100%;
 }
 .discover-text {
-  position: relative;
-  top: -135px;
-  left: -0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   z-index: 100;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,245 @@
+/* Check Out Billing Form Section  */
+.checkout-form-section {
+  width: 100%;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 4.125rem;
+}
+
+/* Left  */
+.checkout-form-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h2-checkout-form {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.checkout-form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  padding-top: 1.25rem;
+}
+.first-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+#check-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5625rem;
+}
+.checkout-label {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.name {
+}
+#fname {
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  width: 13.1875rem;
+  height: 4.6875rem;
+
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.check-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.check-form-input {
+  width: 28.3125rem;
+  height: 4.6875rem;
+  border-radius: 10px;
+  border-width: 1px;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  padding-left: 0.625rem;
+}
+/* Right */
+.checkout-form-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkout-product-subtotal {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.125rem;
+}
+
+.checkout-pro-sub {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* title-left  */
+.checkout-title-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+  text-align: start;
+}
+.h3-title {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.bank-para-1 {
+  color: #9f9f9f;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.bank-para {
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+/* title-right  */
+.checkout-title-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1.25rem;
+  text-align: end;
+}
+.h3-bank-rs {
+  color: #b88e2f;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+/* Direct Bank  */
+.bank-transfer-all {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.125rem;
+  justify-content: flex-start;
+}
+.bank-hr {
+  width: 100%;
+}
+.bank-top {
+    display: flex;
+    gap: .625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+#bank-transfer{
+
+}
+.bank-transfer {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .625rem;
+  
+}
+.bank-radio {
+    display: inline-block;
+}
+#bank-tra {
+}
+.bank-label {
+}
+.bank-para {
+    color: #9F9F9F;
+    font-family: Poppins;
+font-weight: 300;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: justify;
+width: 50%;
+
+
+}
+.bank-middle {
+    display: flex;
+    gap: .625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
+#bank-dir {
+}
+#bank-cash {
+}
+.bank-para-light {
+    color: #000000;
+    font-family: Poppins;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: justify;
+width: 50%;
+}
+.bank-btn {
+    width: 19.875rem;
+height: 4rem;
+border-radius: 15px;
+border-width: 1px;
+border: 1px solid #000000;
+margin-top: 5.25rem;
+}
+.bank-btn-link {
+    color: #000000;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: none;
+
+
+}

@@ -2,7 +2,7 @@
 @media screen and (min-width: 58.75rem) {
   /* Hero Discover Section  */
   .hero-discover {
-    min-width: 100%;
+    width: 100%;
   }
   .hero-discover-img {
     position: relative;
@@ -24,8 +24,8 @@
     justify-content: space-around;
     position: absolute;
     padding: 3.125rem;
-    top: 5.375rem;
-    left: 38rem;
+    top: 550px;
+    right: 500px;
   }
 
   .collection {

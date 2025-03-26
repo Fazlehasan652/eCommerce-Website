@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./commonCSS/commonLg.css" />
     <link rel="stylesheet" href="./commonCSS/commonXl.css" />
     <link rel="stylesheet" href="./commonCSS/commonXXL.css" />
+    <!-- Checkout CSS Style  -->
+     <link rel="stylesheet" href="./checkoutCSS/checkout.css">
     <title>Checkout</title>
   </head>
   <body>
@@ -108,14 +110,14 @@
           <h2 class="h2-checkout-form">Billing details</h2>
           <div class="checkout-form-body">
             <!--Input Form-01  -->
-            <form action="#" class="check-form">
+            <form action="#" class="check-form" id="check-form">
               <div class="first-name">
                 <label for="fname" class="checkout-label">First Name</label>
                 <input type="text" class="name" id="fname" />
               </div>
               <div class="first-name">
                 <label for="lname" class="checkout-label">Last Name</label>
-                <input type="text" class="name" id="lname" />
+                <input type="text" class="name" id="fname" />
               </div>
             </form>
 
@@ -192,33 +194,32 @@
           </div>
         </div>
         <!-- Right  -->
-        <div class="checkout-form-left">
+        <div class="checkout-form-right">
           <div class="checkout-product-subtotal">
             <!-- Product Subtotal  -->
             <div class="checkout-pro-sub">
-              <div class="checkout-title">
+
+              <div class="checkout-title-left">
                 <h3 class="h3-title">Product</h3>
-                <h3 class="h3-title">Subtotal</h3>
-              </div>
-              <div class="checkout-price">
-                <p class="bank-para">Asgaard sofa x 1</p>
-                <p class="bank-para">Rs. 250,000.00</p>
-              </div>
-              <div class="checkout-price">
+                <p class="bank-para-1">Asgaard sofa x 1</p>
                 <p class="bank-para" id="bank-para">Subtotal</p>
-                <p class="bank-para">Rs. 250,000.00</p>
+                <p class="bank-para" id="bank-para">Total</p>  
               </div>
-              <div class="checkout-total">
-                <p class="bank-para" id="bank-para">Total</p>
+
+
+              <div class="checkout-title-right">
+                <h3 class="h3-title">Subtotal</h3>
+                <p class="bank-para">Rs. 250,000.00</p>
+                <p class="bank-para">Rs. 250,000.00</p>
                 <h3 class="h3-bank-rs">Rs. 250,000.00</h3>
               </div>
             </div>
-
             <!-- Direct Bank Transfer  -->
-            <div class="bank-transfer">
+            <div class="bank-transfer-all">
+              <hr class="bank-hr" >
               <div class="bank-top">
                 <div class="bank-transfer" id="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-tra" />
+                  <input type="radio" class="bank-radio" id="bank-tra" name="one" />
                   <label for="bank-tra" class="bank-label"
                     >Direct Bank Transfer</label
                   >
@@ -233,13 +234,13 @@
 
               <div class="bank-middle">
                 <div class="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-dir" />
+                  <input type="radio" class="bank-radio" id="bank-dir" name="one" />
                   <label for="bank-dir" class="bank-para"
                     >Direct Bank Transfer</label
                   >
                 </div>
                 <div class="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-cash" />
+                  <input type="radio" class="bank-radio" id="bank-cash" name="one" />
                   <label for="bank-cash" class="bank-para"
                     >Cash On Delivery</label
                   >
@@ -252,10 +253,10 @@
                 for other purposes described in our
                 <strong>privacy policy.</strong>
               </p>
-              <button class="bank-btn">
-                <a href="#" class="bank-btn-link">Place order</a>
-              </button>
             </div>
+            <button class="bank-btn">
+              <a href="#" class="bank-btn-link">Place order</a>
+            </button>
           </div>
         </div>
       </section>

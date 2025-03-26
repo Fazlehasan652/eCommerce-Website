@@ -298,7 +298,7 @@
   letter-spacing: 0%;
 }
 .product-hr {
-  padding-top: 1.25rem;
+  margin-top: 1.25rem;
   width: 90%;
 }
 .product-text-bottom {
@@ -445,9 +445,8 @@ text-decoration: none;
 
 }
 
-.product-hr{
+.product-hr-end{
     width: 90%;
-    height: 0px;
     margin: 0 auto;
-    margin-bottom: 1.25rem;
+   
 }
