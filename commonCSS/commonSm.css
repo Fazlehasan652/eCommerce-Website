@@ -368,3 +368,33 @@ line-height: 100%;
 letter-spacing: 0%;
 
 }
+/* About Section  */
+.about{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 6.25rem;
+  align-items: center;
+  justify-content: center;
+  gap: 3.125rem;
+  background-color: #f9f1e7;
+}
+.h1-about{
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  font-weight: 700;
+
+}
+.para-about{
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  text-align: justify;
+  
+
+}

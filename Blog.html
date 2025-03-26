@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./commonCSS/commonLg.css" />
     <link rel="stylesheet" href="./commonCSS/commonXl.css" />
     <link rel="stylesheet" href="./commonCSS/commonXXL.css" />
+    <!-- Blog CSS Style link  -->
+     <link rel="stylesheet" href="./blogCSS/blogCSS.css">
     <title>Blog</title>
   </head>
   <body>
@@ -90,7 +92,7 @@
             <div class="hero-text-shop">
               <p class="para-hero-shop">Home</p>
               <img
-                src="./images/common-icon/Right-Arrow.png"
+                src="./images/common-icon/Vector-arrow.png"
                 alt="Arrow"
                 class="hero-shop-icon"
               />
@@ -158,7 +160,7 @@
                   Pellentesque elit ullamcorper dignissim cras tincidunt.
                   Pharetra et ultrices neque ornare aenean euismod elementum.
                 </p>
-                <a class="paraline-main">Read more</a>
+                <a href="#" class="paraline-main">Read more</a>
               </div>
             </div>
             <!-- Text Content-02  -->
@@ -273,6 +275,37 @@
 
           <!-- Aside content  -->
           <aside class="aside-content">
+            <!-- Top  -->
+            <div class="asid-top">
+              <div class="aside-input-field">
+                <input type="text" class="aside-input">
+                <img src="./images/common-icon/akar-icons_search.png" alt="search" class="aside-search-img">
+              </div>
+              <div class="categories-side">
+                <h2 class="h2-category">Categories</h2>
+                <div class="categoty-info">
+                  <div class="categoty-left">
+                      <p class="para-category">Crafts</p>
+                      <p class="para-category">Design</p>
+                      <p class="para-category">Handmade</p>
+                      <p class="para-category">Interior</p>
+                      <p class="para-category">Wood</p>
+                  </div>
+                  <div class="categoty-left">
+                    <p class="para-category">2</p>
+                    <p class="para-category">8</p>
+                    <p class="para-category">7</p>
+                    <p class="para-category">1</p>
+                    <p class="para-category">6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Bottom  -->
+            <div class="asid-bottom">
+
+
+              <h2 class="h2-recent-post">Recent Posts</h2>
             <!-- Aside Text-01  -->
             <div class="blog-content-aside">
               <img
@@ -338,15 +371,22 @@
                 <p class="para-date-aside">03 Aug 2022</p>
               </div>
             </div>
+
+
+            </div>
+
+            
           </aside>
         </main>
+
         <!-- Pagination  -->
         <div class="blog-pagination">
-          <h5 class="h5-pagination">1</h5>
+          <h5 class="h5-pagination" id="h5-pagination">1</h5>
           <h5 class="h5-pagination">2</h5>
           <h5 class="h5-pagination">3</h5>
-          <h5 class="h5-pagination">Next</h5>
+          <h5 class="h5-pagination" id="h5-pagination-next"><a href="#" class="next">Next</a></h5>
         </div>
+        
       </section>
       <!-- Blog Content Section End Hear  -->
 
@@ -432,15 +472,18 @@
           <div class="footer-div-right">
             <p class="light-para">Newsletter</p>
             <div class="subscribe">
-              <input type="email" class="footer-input" />
-              <p class="para-footer">SUBSCRIBE</p>
+              <input
+                type="email"
+                class="footer-input"
+                placeholder="Enter Your Email Address" />
+              <a href="#" class="sub-footer-link">SUBSCRIBE</a>
             </div>
           </div>
         </div>
 
-        <hr class="footer-hr" />
-
+        
         <div class="footer-bottom">
+          <hr class="footer-hr" />
           <p class="para-bottom">2023 furino. All rights reverved</p>
         </div>
       </footer>

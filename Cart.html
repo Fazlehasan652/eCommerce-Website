@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./commonCSS/commonLg.css" />
     <link rel="stylesheet" href="./commonCSS/commonXl.css" />
     <link rel="stylesheet" href="./commonCSS/commonXXL.css" />
+    <!-- Cart CSS Style  -->
+     <link rel="stylesheet" href="./cartCSS/cart.css">
+
     <title>Cart</title>
   </head>
   <body>
@@ -125,7 +128,7 @@
               <h4 class="h4-cart-peice">Asgaard sofa</h4>
               <h4 class="h4-cart-peice">Rs. 250,000.00</h4>
               <h4 class="h4-cart-peice" id="h4-cart-price">1</h4>
-              <h4 class="h4-cart-peice">Rs. 250,000.00</h4>
+              <h4 class="h4-cart-peice" id="h4-cart-price-rs" >Rs. 250,000.00</h4>
               <img
                 src="./images/common-icon/delete-filled.png"
                 alt="Delete"
@@ -137,6 +140,8 @@
         <!-- Right  -->
         <div class="cart-priceing-right">
           <h2 class="cart-total">Cart Totals</h2>
+
+
           <div class="cart-check-out">
             <div class="subtotal">
               <h3 class="h3-subtotal">Subtotal</h3>
@@ -236,15 +241,18 @@
           <div class="footer-div-right">
             <p class="light-para">Newsletter</p>
             <div class="subscribe">
-              <input type="email" class="footer-input" />
-              <p class="para-footer">SUBSCRIBE</p>
+              <input
+                type="email"
+                class="footer-input"
+                placeholder="Enter Your Email Address" />
+              <a href="#" class="sub-footer-link">SUBSCRIBE</a>
             </div>
           </div>
         </div>
 
-        <hr class="footer-hr" />
-
+        
         <div class="footer-bottom">
+          <hr class="footer-hr" />
           <p class="para-bottom">2023 furino. All rights reverved</p>
         </div>
       </footer>
