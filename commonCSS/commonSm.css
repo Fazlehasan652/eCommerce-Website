@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: blueviolet;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: auto;
   overflow-x: hidden;
 }
 /* Common Style CSS { Header, Hero, achievement, Footer, Products }  */
