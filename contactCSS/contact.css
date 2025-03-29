@@ -10,29 +10,29 @@
 }
 .touch-top {
   display: flex;
-  flex-direction: column;width: 50%;
+  flex-direction: column;
+  width: 50%;
   align-items: center;
-  gap: .9375rem;
+  gap: 0.9375rem;
 }
 .h2-get {
   color: #000000;
   font-family: Poppins;
-font-weight: 600;
-font-size: 36px;
-line-height: 100%;
-letter-spacing: 0%;
-width: 100%;
-
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 100%;
 }
 .para-get {
-  color: #9F9F9F;
+  color: #9f9f9f;
   font-family: Poppins;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-width: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 60%;
 }
 .touch-bottom {
   display: flex;
@@ -48,7 +48,6 @@ width: 60%;
   justify-content: center;
   gap: 1.25rem;
   flex: 1;
-  
 }
 
 .addres-img-side {
@@ -72,27 +71,25 @@ width: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: .3125rem;
+  gap: 0.3125rem;
 }
 .h4-address {
   text-align: start;
   color: #000000;
   font-family: Poppins;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .p-address {
   text-align: start;
   color: #000000;
   font-family: Poppins;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-letter-spacing: 0%;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
 }
 .touch-right {
   display: flex;
@@ -104,7 +101,6 @@ letter-spacing: 0%;
   gap: 3.125rem;
 }
 .touch-form {
-  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -119,48 +115,43 @@ letter-spacing: 0%;
 .contact-label {
   color: #000000;
   font-family: Poppins;
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 .contact-input {
-  border: 1px solid #9F9F9F;
-  color: #FFFFFF;
+  border: 1px solid #9f9f9f;
+  color: #ffffff;
   width: 33.0469rem;
-height: 4.6875rem;
-border-radius: .625rem;
-border-width: .0625rem;
-text-align: start;
-padding-left: .625rem;
+  height: 4.6875rem;
+  border-radius: 0.625rem;
+  border-width: 0.0625rem;
+  text-align: start;
+  padding-left: 0.625rem;
 }
-#massage{
-  color: #FFFFFF;
-  border: 1px solid #9F9F9F;
+#massage {
+  color: #ffffff;
+  border: 1px solid #9f9f9f;
   width: 32.9375rem;
-height: 7.5rem;
-border-radius: 10px;
-border-width: 1px;
-
-
+  height: 7.5rem;
+  border-radius: 10px;
+  border-width: 1px;
 }
 .touch-btn {
   width: 14.8125rem;
-height: 3.4375rem;
-background-color: #B88E2F ;
-border-radius: 5px;
-border-width: 1px;
-border: 1px solid #B88E2F;
-  
+  height: 3.4375rem;
+  background-color: #b88e2f;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #b88e2f;
 }
 .touch-link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Poppins;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-decoration: none;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
 }

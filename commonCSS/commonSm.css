@@ -219,7 +219,6 @@ body {
   margin: 0 auto;
 }
 .footer-bottom {
- 
 }
 .para-bottom {
 }
@@ -231,8 +230,7 @@ body {
 }
 .product-body-shop {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-items: center;
   grid-row-gap: 150px;
 }
@@ -343,33 +341,31 @@ body {
   align-content: center;
   border-radius: 10px;
   text-align: center;
-text-decoration: none;
-color: #000000;
-font-family: Poppins;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  text-decoration: none;
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
-.pro-btn-link-shop-next{
+.pro-btn-link-shop-next {
   background: #f9f1e7;
   width: 6.125rem;
-height: 3.75rem;
-border-radius: 10px;
-align-content: center;
-text-align: center;
-text-decoration: none;
-color: #000000;
-font-family: Poppins;
-font-weight: 300;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-
+  height: 3.75rem;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 /* About Section  */
-.about{
+.about {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -379,7 +375,7 @@ letter-spacing: 0%;
   gap: 3.125rem;
   background-color: #f9f1e7;
 }
-.h1-about{
+.h1-about {
   font-family: Poppins;
   font-weight: 300;
   font-size: 30px;
@@ -387,14 +383,11 @@ letter-spacing: 0%;
   letter-spacing: 0%;
   color: #000000;
   font-weight: 700;
-
 }
-.para-about{
+.para-about {
   font-family: Poppins;
   font-weight: 300;
   font-size: 20px;
   color: #000000;
   text-align: justify;
-  
-
 }

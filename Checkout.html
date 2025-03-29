@@ -9,13 +9,8 @@
       href="./images/FS-Digital-1.png"
       type="image/x-icon"
     />
-    <!-- Common Style CSS link  -->
-    <link rel="stylesheet" href="./commonCSS/commonSm.css" />
-    <link rel="stylesheet" href="./commonCSS/commonLg.css" />
-    <link rel="stylesheet" href="./commonCSS/commonXl.css" />
-    <link rel="stylesheet" href="./commonCSS/commonXXL.css" />
-    <!-- Checkout CSS Style  -->
-     <link rel="stylesheet" href="./checkoutCSS/checkout.css">
+    <!-- Responsive CSS Style  -->
+    <link rel="stylesheet" href="responsive.css" />
     <title>Checkout</title>
   </head>
   <body>
@@ -198,28 +193,31 @@
           <div class="checkout-product-subtotal">
             <!-- Product Subtotal  -->
             <div class="checkout-pro-sub">
-
               <div class="checkout-title-left">
                 <h3 class="h3-title">Product</h3>
                 <p class="bank-para-1">Asgaard sofa x 1</p>
-                <p class="bank-para" id="bank-para">Subtotal</p>
-                <p class="bank-para" id="bank-para">Total</p>  
+                <p class="bank-para-2" id="bank-para">Subtotal</p>
+                <p class="bank-para-2" id="bank-para">Total</p>
               </div>
-
 
               <div class="checkout-title-right">
                 <h3 class="h3-title">Subtotal</h3>
-                <p class="bank-para">Rs. 250,000.00</p>
-                <p class="bank-para">Rs. 250,000.00</p>
+                <p class="bank-para-2">Rs. 250,000.00</p>
+                <p class="bank-para-2">Rs. 250,000.00</p>
                 <h3 class="h3-bank-rs">Rs. 250,000.00</h3>
               </div>
             </div>
             <!-- Direct Bank Transfer  -->
             <div class="bank-transfer-all">
-              <hr class="bank-hr" >
+              <hr class="bank-hr" />
               <div class="bank-top">
                 <div class="bank-transfer" id="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-tra" name="one" />
+                  <input
+                    type="radio"
+                    class="bank-radio"
+                    id="bank-tra"
+                    name="one"
+                  />
                   <label for="bank-tra" class="bank-label"
                     >Direct Bank Transfer</label
                   >
@@ -234,14 +232,24 @@
 
               <div class="bank-middle">
                 <div class="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-dir" name="one" />
-                  <label for="bank-dir" class="bank-para"
+                  <input
+                    type="radio"
+                    class="bank-radio"
+                    id="bank-dir"
+                    name="one"
+                  />
+                  <label for="bank-dir" class="bank-para" id="bank-dir"
                     >Direct Bank Transfer</label
                   >
                 </div>
                 <div class="bank-transfer">
-                  <input type="radio" class="bank-radio" id="bank-cash" name="one" />
-                  <label for="bank-cash" class="bank-para"
+                  <input
+                    type="radio"
+                    class="bank-radio"
+                    id="bank-cash"
+                    name="one"
+                  />
+                  <label for="bank-cash" class="bank-para" id="bank-dir"
                     >Cash On Delivery</label
                   >
                 </div>
@@ -347,13 +355,13 @@
               <input
                 type="email"
                 class="footer-input"
-                placeholder="Enter Your Email Address" />
+                placeholder="Enter Your Email Address"
+              />
               <a href="#" class="sub-footer-link">SUBSCRIBE</a>
             </div>
           </div>
         </div>
 
-        
         <div class="footer-bottom">
           <hr class="footer-hr" />
           <p class="para-bottom">2023 furino. All rights reverved</p>
