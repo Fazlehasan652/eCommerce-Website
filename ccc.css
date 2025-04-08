@@ -1,0 +1,79 @@
+/* Share Start  */
+  
+#discount-2{
+    display: none;
+  }
+  #product-content-2{
+    position: relative;
+  }
+  .share-hover{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    
+  }
+  #product-content-2:hover .share-hover {
+    display: block;
+    
+  }
+
+  .add-share-bg{
+    background-color: #3a3a3a8e;
+    width: 17.8125rem;
+    height: 25rem;
+    display: flex;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  
+  .add-share {
+    width: 15.75rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    margin: 0 auto;
+  }
+  .add-share-btn {
+    width: 12.625rem;
+    height: 3rem;
+  }
+  .add-share-btn-link {
+    color: #b88e2f;
+    text-decoration: none;
+  }
+  .share {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+  }
+  .share-txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .1875rem;
+  }
+  .share-img {
+    width: .75rem;
+    height: .8333rem;
+  }
+  .h3-share-txt {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+ 
+/* Share End  */
