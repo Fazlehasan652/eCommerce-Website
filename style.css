@@ -4854,8 +4854,8 @@ body {
     justify-content: space-around;
     position: absolute;
     padding: 3.125rem;
-    top: 8.875rem;
-    right: 2.9375rem;
+    top: 18.875rem;
+    right: 12.9375rem;
   }
 
   .collection {
@@ -5334,6 +5334,60 @@ body {
     letter-spacing: 0%;
   }
 
+  /* Browse Section  */
+  .browse {
+    width: 100%;
+    height: 42.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.125rem;
+    margin-bottom: 2.25rem;
+  }
+  .browse-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  .h3-browse {
+    color: #333333;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 0rem;
+  }
+  .para-browse {
+    color: #666666;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0rem;
+    text-align: center;
+  }
+  .browse-imges {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .bro-img {
+    width: 22.8125rem;
+    height: 30rem;
+  }
+  .h4-browse {
+    color: #333333;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0rem;
+    text-align: center;
+  }
+
   /* Get In Touch section  */
   .touch-section {
     padding-top: 5.125rem;
@@ -5544,6 +5598,163 @@ body {
     color: #898989;
   }
 
+  /* Rooms Section  */
+  .rooms-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    margin-bottom: 9.375rem;
+  }
+  .room-text {
+    width: 26.375rem;
+    height: 9.4375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 1;
+    text-align: justify;
+    gap: 1.125rem;
+    margin-left: 1.25rem;
+  }
+  .h2-room {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2.375rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: start;
+  }
+  .para-room {
+    color: #616161;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 90%;
+  }
+  .room-btn {
+    background: #b88e2f;
+    min-width: 11rem;
+    min-height: 3.5rem;
+  }
+  .room-btn-link {
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .room-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50.75rem;
+    min-height: 36.375rem;
+    flex: 2;
+  }
+  .room-peace-img {
+    width: 22.25rem;
+    height: 36.375rem;
+  }
+  .peace-img {
+    width: 22.25rem;
+    height: 36.375rem;
+  }
+  .inner-peace {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    position: relative;
+    top: -10.25rem;
+    left: 2.5rem;
+  }
+  .room-peace {
+    background: #ffffffb8;
+    backdrop-filter: blur(0.1875rem);
+
+    width: 13.5625rem;
+    height: 8.125rem;
+  }
+  .para-peace {
+    color: #616161;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .h3-peace {
+    color: #3a3a3a;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+  }
+  .inner-arrow {
+    background: #b88e2f;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #room-only-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 35.9375rem;
+    gap: 1.625rem;
+  }
+  .only-img {
+    display: flex;
+    gap: 0.525rem;
+  }
+  .only-img-1 {
+    width: 90%;
+    height: 100%;
+  }
+  .only-elipes {
+    width: 7.5rem;
+    height: 2.5rem;
+    gap: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .elipes {
+    background: #d8d8d8;
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 50%;
+    padding: 0.1875rem;
+    text-align: center;
+    text-decoration: none;
+    color: transparent;
+  }
+  #elipes {
+    background: #b88e2f;
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.0625rem;
+    border-radius: 50%;
+    padding: 0.1875rem;
+    text-align: center;
+    text-decoration: none;
+    color: transparent;
+    border: 0.25rem solid white;
+    outline-style: solid;
+    outline-color: #b88e2f;
+    outline-width: thin;
+  }
+
   /* Funiro Furniture Section  */
 
   .furniture {
@@ -5590,10 +5801,12 @@ body {
     text-align: center;
   }
   .furniture-img {
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     row-gap: 6.25rem;
     column-gap: 1.125rem;
+    flex: 3;
   }
   .furni-left-img {
     display: grid;
@@ -5602,10 +5815,11 @@ body {
     column-gap: 5.25rem;
     margin-top: 0rem;
     margin-left: 0.25rem;
+    flex: 1;
   }
 
   #fur-img-1-1 {
-    width: 150%;
+    width: 200%;
     height: 80%;
   }
   #fur-img-1-2 {
@@ -5613,30 +5827,32 @@ body {
     height: 90%;
   }
   .fur-img-1 {
-    width: 150%;
+    width: 300%;
     height: auto;
   }
   .furni-middle-img {
     display: flex;
     align-items: center;
     margin-left: 4.25rem;
+    flex: 1;
+    justify-content: center;
   }
 
   .fur-img-2 {
-    width: 16.4375rem;
-    height: 24.5rem;
+    width: 22.4375rem;
+    height: 34.5rem;
   }
 
   .furni-right-img {
     display: grid;
     grid-template-columns: 6.25rem 6.25rem;
     row-gap: 2.25rem;
-    column-gap: 2.5rem;
-    margin-left: 0.625rem;
+    column-gap: 7.5rem;
+    flex: 1;
   }
 
   .fur-img-3 {
-    width: 100%;
+    width: 200%;
     height: auto;
   }
 
@@ -5739,7 +5955,7 @@ body {
 }
 
 /* Media Screen For 1440px to 1920px  */
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1440px) {
   /* Home & shop Section Title   */
   .filter-section-product {
     background: #f9f1e7;
